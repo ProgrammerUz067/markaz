@@ -1,9 +1,6 @@
 import React from "react";
 import "./Teachers.css";
-import roma from "../../img/roma.png";
-import diyor from "../../img/diyor.png";
-import ramiz from "../../img/ramiz.png";
-import shakhnoza from "../../img/shakhnoza.png";
+import main2 from '../../img/main2.png'
 
 const Teachers = () => {
   return (
@@ -39,6 +36,8 @@ const Teachers = () => {
           </div>
         </div>
       </div>
+
+      <img src={main2} alt="" className="main3" />
     </div>
   );
 };
