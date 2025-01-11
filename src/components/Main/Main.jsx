@@ -21,7 +21,7 @@ const Main = () => {
       </div>
       <div className="main2">
         <div className="grey"></div>
-        <img src={main2} alt="" />
+        <img src={main2} alt="" className="i" />
       </div>
     </div>
   );

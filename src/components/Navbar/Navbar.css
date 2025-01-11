@@ -13,6 +13,7 @@
   background-color: #7d7d7d;
   position: fixed;
   font-family: sans-serif;
+  z-index: 10;
 }
 
 .nav > .nav-header {
@@ -91,7 +92,6 @@
   .nav > .nav-links {
     margin-top: 50px;
     position: absolute;
-    z-index: 9999999999;
     display: block;
     width: 100%;
     background-color: #7d7d7d;
