@@ -20,11 +20,10 @@ const Navbar = () => {
       </div>
 
       <div class="nav-links">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
-        <a href="#">Link 5</a>
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Курсы</a>
+        <a href="#">Контакты</a>
       </div>
     </div>
   );

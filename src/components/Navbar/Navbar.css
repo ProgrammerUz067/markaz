@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0px;
-  font-family: "segoe ui";
-}
-
 .logo{
   height: 100px;
   margin-top: -10px;
@@ -17,6 +12,7 @@ body {
   width: 100%;
   background-color: #7d7d7d;
   position: relative;
+  font-family: sans-serif;
 }
 
 .nav > .nav-header {
