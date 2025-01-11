@@ -46,3 +46,23 @@
   height: 70px;
   background: #7d7d7d;
 }
+
+@media screen and (max-width: 600px){
+  .main{
+    flex-wrap: wrap;
+  }
+  .main .text-wrapper .title{
+    font-size: 34px;
+  }
+  .main .text-wrapper .subtitle{
+    font-size: 22px;
+  }
+  .main .text-wrapper{
+    width: 100%;
+  }
+
+
+  .main .img-wrapper{
+    width: 100%;
+  }
+}

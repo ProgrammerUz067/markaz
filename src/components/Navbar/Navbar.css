@@ -11,7 +11,7 @@
   height: 100px;
   width: 100%;
   background-color: #7d7d7d;
-  position: relative;
+  position: fixed;
   font-family: sans-serif;
 }
 
@@ -91,9 +91,10 @@
   .nav > .nav-links {
     margin-top: 50px;
     position: absolute;
+    z-index: 9999999999;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #7d7d7d;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
