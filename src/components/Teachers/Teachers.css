@@ -1,0 +1,90 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.teachers{
+  margin-left: 30px;
+  margin-top: 180px;
+}
+
+.teachers .container{
+  display: flex;
+  gap: 60px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: url(../../img/roma.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: url(../../img/diyor.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: url(../../img/ramiz.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card4 {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: url(../../img/shakhnoza.png) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  width: 100%;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.582);
+  color: white;
+  transform: translateY(100%);
+  transition: all 0.35s ease;
+}
+
+.card:hover .content {
+  transform: translateY(0);
+}
+
+.card2:hover .content {
+  transform: translateY(0);
+}
+
+.card3:hover .content {
+  transform: translateY(0);
+}
+
+.card4:hover .content {
+  transform: translateY(0);
+}
+
+h3 {
+  font-size: 30px;
+}
+
