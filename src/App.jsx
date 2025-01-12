@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Teachers from "./components/Teachers/Teachers";
 import Courses from "./components/Courses/Courses";
 import Contact from "./components/Contact/Contact";
+import Map from "./components/Map/Map";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Teachers />
       <Courses />
       <Contact />
+      <Map />
     </div>
   );
 };
