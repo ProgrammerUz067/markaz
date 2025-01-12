@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Main from "./components/Main/Main";
 import About from "./components/About/About";
 import Teachers from "./components/Teachers/Teachers";
+import Courses from "./components/Courses/Courses";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Main />
       <About />
       <Teachers />
+      <Courses />
     </div>
   );
 };
