@@ -7,6 +7,7 @@ import Courses from "./components/Courses/Courses";
 import Contact from "./components/Contact/Contact";
 import Map from "./components/Map/Map";
 import Footer from "./components/Footer/Footer";
+import Copy from "./components/Copy/Copy";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Contact />
       <Map />
       <Footer />
+      <Copy />
     </div>
   );
 };
