@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 600px){
   .about .model {
-    top: 1020px;
+    top: 980px;
     width: 80%;
     flex-wrap: wrap;
   }

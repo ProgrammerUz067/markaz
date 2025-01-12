@@ -99,3 +99,14 @@ h3 {
   padding-left: -0px;
   padding-right: -30px;
 }
+
+@media screen and (max-width: 600px){
+  .teachers{
+    margin-top: 500px;
+  }
+
+  .teachers .container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
