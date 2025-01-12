@@ -6,6 +6,7 @@ import Teachers from "./components/Teachers/Teachers";
 import Courses from "./components/Courses/Courses";
 import Contact from "./components/Contact/Contact";
 import Map from "./components/Map/Map";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Courses />
       <Contact />
       <Map />
+      <Footer />
     </div>
   );
 };

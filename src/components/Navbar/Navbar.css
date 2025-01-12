@@ -47,7 +47,7 @@
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  color: #92E3a9;
 }
 
 .nav > #nav-check {
