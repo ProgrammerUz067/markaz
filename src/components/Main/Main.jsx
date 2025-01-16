@@ -1,7 +1,6 @@
 import React from "react";
 import "./Main.css";
 import main from "../../img/main.png";
-import main2 from "../../img/main2.png";
 
 const Main = () => {
   return (
@@ -21,7 +20,6 @@ const Main = () => {
       </div>
       <div className="main2">
         <div className="grey"></div>
-        <img src={main2} alt="" className="i" />
       </div>
     </div>
   );

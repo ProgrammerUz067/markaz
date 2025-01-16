@@ -48,3 +48,9 @@
     margin-left: 30px;
   }
 }
+
+@media screen and (max-width: 2250px){
+  .about .model{
+    margin-top: 500px;
+  }
+}

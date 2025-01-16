@@ -8,12 +8,14 @@ import Contact from "./components/Contact/Contact";
 import Map from "./components/Map/Map";
 import Footer from "./components/Footer/Footer";
 import Copy from "./components/Copy/Copy";
+import Wave from "./components/Wave/Wave";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Main />
+      <Wave />
       <About />
       <Teachers />
       <Courses />
