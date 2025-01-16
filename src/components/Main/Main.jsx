@@ -19,7 +19,7 @@ const Main = () => {
         </div>
       </div>
       <div className="main2">
-        <div className="grey"></div>
+        {/* <div className="grey"></div> */}
       </div>
     </div>
   );

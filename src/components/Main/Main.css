@@ -42,10 +42,10 @@
   height: 100%;
 }
 
-.grey{
+/* .grey{
   height: 70px;
   background: #7d7d7d;
-}
+} */
 
 @media screen and (max-width: 600px){
   .main{
