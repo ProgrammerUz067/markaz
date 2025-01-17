@@ -57,9 +57,11 @@
 
   .about .model .textt-wrapper .tit{
     font-size: 60px;
+    margin-top: -20px;
   }
 
   .about .model .textt-wrapper .des{
+    margin-top: -10px;
     font-size: 22px;
   }
 }

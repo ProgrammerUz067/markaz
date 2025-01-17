@@ -70,11 +70,15 @@
 
 @media screen and (max-width: 2250px){
   .main .text-wrapper{
-    width: 40%;
+    width: 50%;
   }
 
+  .main .text-wrapper .title{
+    font-size: 62px;
+  }
   .main .text-wrapper .subtitle{
     margin-top: 15px;
+    font-size: 40px;
   }
 
   .main2 .grey{
