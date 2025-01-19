@@ -17,6 +17,7 @@ import frontend from "../../img/frontend.png";
 import backend from "../../img/backend.png";
 import english from "../../img/english.png";
 import matem from "../../img/matem.png";
+import Wave from '../Wave/Wave'
 
 const Courses = () => {
   return (
@@ -134,6 +135,8 @@ const Courses = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+
+      <Wave />
     </div>
   );
 };
