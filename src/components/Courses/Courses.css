@@ -1,13 +1,18 @@
 .tittlee {
   font-size: 54px;
-  color: #f2f2f2;
+  color: #000;
   padding-top: 20px;
   margin-left: 30px;
-  margin-top: -5px;
+  margin-top: 15px;
 }
 
-.courses {
-  background: #7d7d7d;
+.courses,
+Swiper {
+  background: #fff;
+}
+
+SwiperSlide {
+  background: #ffff;
 }
 
 .wrapper-courses {
@@ -20,42 +25,44 @@
 }
 
 .course {
-  background: #f2f2f2;
+  margin-top: 200px;
+  background: #fff;
   padding: 20px 40px;
   -webkit-box-shadow: 0px 0px 22px 21px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 0px 22px 21px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 0px 22px 21px rgba(34, 60, 80, 0.2);
   border-radius: 15px;
+  width: 27%;
 }
 
-.top{
+.top {
   display: flex;
 }
-.top .text-course .title-course{
+.top .text-course .title-course {
   font-size: 24px;
 }
-.top .text-course{
+.top .text-course {
   width: 80%;
 }
-.top .text-course .dur-course{
+.top .text-course .dur-course {
   color: #7d7d7d;
   margin-top: 10px;
 }
 
-.bottom{
+.bottom {
   margin-top: 15px;
 }
-.bottom .des-course{
+.bottom .des-course {
   font-size: 14px;
 }
 
-@media screen and (max-width: 600px){
-  .courses{
+@media screen and (max-width: 600px) {
+  .courses {
     padding-top: 25px;
     margin-top: -6px;
   }
 
-  .wrapper-courses{
+  .wrapper-courses {
     flex-wrap: wrap;
   }
 }
