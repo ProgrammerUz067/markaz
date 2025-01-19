@@ -9,7 +9,7 @@ const Map = () => {
       <div>
         <iframe
           src="https://yandex.uz/map-widget/v1/?ll=66.989284%2C39.688934&mode=search&oid=41170032874&ol=biz&z=16.73"
-          width="1450"
+          width="1750"
           height="300"
           frameborder="0"
           allowfullscreen="true"
