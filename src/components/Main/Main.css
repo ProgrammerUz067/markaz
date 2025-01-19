@@ -69,6 +69,9 @@
 }
 
 @media screen and (max-width: 2250px){
+  .main{
+    padding-top: 100px;
+  }
   .main .text-wrapper{
     width: 50%;
   }
