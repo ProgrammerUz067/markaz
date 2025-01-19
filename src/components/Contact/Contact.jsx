@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import img from "../../img/main2.png";
 import name from "../../img/name.png"
 import email from "../../img/email.png"
 import flag from "../../img/flag.png"
@@ -8,7 +7,6 @@ import flag from "../../img/flag.png"
 const Contact = () => {
   return (
     <div className="contact">
-      <img src={img} alt="" className="img-contact" />
       <div className="contact-model">
         <div className="text-contact">
           <h1 className="title-contact">Поможем решить все вопросы</h1>
