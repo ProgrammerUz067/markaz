@@ -42,6 +42,7 @@
   height: 100%;
 }
 
+/* 2560 X 1440 */
 @media screen and (max-width: 2560px) {
   .main .text-wrapper .title {
     margin-top: 150px;

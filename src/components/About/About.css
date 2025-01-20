@@ -31,3 +31,21 @@
 .textt-wrapper{
   margin-right: 30px;
 }
+
+/* 2560 X 1440 */
+@media screen and (max-width: 2560px){
+  .about .model {
+    margin-top: 1030px;
+    /* height: 450px; */
+    width: 1200px;
+    padding-right: 50px;
+  }
+  .about .model .textt-wrapper .tit{
+    font-size: 80px;
+    font-weight: 500;
+  }
+  .about .model .textt-wrapper .des{
+    font-size: 25px;
+  }
+}
+@media screen and (max-height: 1440px){}
