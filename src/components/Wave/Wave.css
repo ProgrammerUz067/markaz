@@ -1,5 +1,5 @@
 .wave-container {
-  height: 40vh;
+  height: 20vh;
   background-color: #7d7d7d;
   position: relative;
 }
@@ -22,3 +22,11 @@
     height: 65px;
   }
 }
+
+@media screen and (max-width: 2560px){
+  .wave-container{
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-height: 1440px){}
