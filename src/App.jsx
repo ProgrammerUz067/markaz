@@ -7,7 +7,7 @@ import Courses from "./components/Courses/Courses";
 import Contact from "./components/Contact/Contact";
 import Map from "./components/Map/Map";
 import Footer from "./components/Footer/Footer";
-import Copy from "./components/Copy/Copy";
+// import Copy from "./components/Copy/Copy";
 import Wave from "./components/Wave/Wave";
 import './App.css'
 
@@ -23,7 +23,7 @@ const App = () => {
       <Contact />
       <Map />
       <Footer />
-      <Copy />
+      {/* <Copy /> */}
     </div>
   );
 };

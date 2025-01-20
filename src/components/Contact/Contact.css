@@ -89,3 +89,42 @@
   cursor: pointer;
   color: #f2efef;
 }
+
+@media screen and (max-width: 2560px){
+  .contact-model{
+    margin-top: -20px;
+    height: 550px;
+    margin-left: 100px;
+  }
+
+  .contact-model .text-contact .title-contact{
+    font-size: 70px;
+  }
+
+  .contact-model .text-contact .subtitle-contact{
+    font-size: 35px;
+  }
+
+  .contact-model .form-contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-model .form-contact .btn-submit{
+    margin-top: 120px;
+    margin-left: -715px;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+  }
+
+  .contact-model .form-contact form input{
+    width: 700px;
+    height: 100px;
+    font-size: 30px;
+  }
+
+  .contact-model .form-contact form{
+    margin-left: 110px;
+  }
+}

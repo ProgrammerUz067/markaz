@@ -17,7 +17,7 @@ import frontend from "../../img/frontend.png";
 import backend from "../../img/backend.png";
 import english from "../../img/english.png";
 import matem from "../../img/matem.png";
-import Wave from '../Wave/Wave'
+import WaveWhite from '../WaveWhite/WaveWhite'
 
 const Courses = () => {
   return (
@@ -136,7 +136,7 @@ const Courses = () => {
         </Swiper>
       </div>
 
-      <Wave />
+      <WaveWhite />
     </div>
   );
 };

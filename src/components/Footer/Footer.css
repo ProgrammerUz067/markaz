@@ -1,8 +1,8 @@
 .footer{
-  margin-top: 150px;
+  padding-top: 150px;
   background: #7d7d7d;
   padding-left: 30px;
-  height: 200px;
+  /* height: 200px; */
   display: flex;
   gap: 60px;
 }

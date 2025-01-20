@@ -17,12 +17,12 @@ const Contact = () => {
         </div>
         <div className="form-contact">
           <form>
-            <img src={name} className="name-input" alt="" />
+            {/* <img src={name} className="name-input" alt="" /> */}
             <input type="text" placeholder="Имя" />
-            <img src={email} className="email-input" alt="" />
+            {/* <img src={email} className="email-input" alt="" /> */}
             <input type="email" placeholder="Электронная почта" />
-            <img src={flag} className="flag-input" alt="" />
-            <input type="number" placeholder="Телефон" />
+            {/* <img src={flag} className="flag-input" alt="" /> */}
+            <input type="tel" placeholder="Телефон" />
             <button className="btn-submit">Oтправить</button>
           </form>
         </div>
