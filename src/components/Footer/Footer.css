@@ -40,39 +40,3 @@
   color: #f2f2f2;
   font-size: 20px;
 }
-
-
-@media screen and (max-width: 600px){
-  .footer{
-    flex-wrap: wrap;
-    height: 700px;
-    justify-content: center;
-  }
-
-  .footer .left-footer{
-    width: 100%;
-  }
-
-  .footer .left-footer .logo-footer{
-    margin-top: 30px;
-    margin-left: 140px;
-  }
-
-  .footer .center-footer{
-    width: 100%;
-  }
-
-  .footer .center-footer ul{
-    margin-left: 230px;
-    margin-top: -150px;
-  }
-
-  .footer .right-footer{
-    width: 100%;
-  }
-
-  .footer .right-footer ul{
-    margin-top: -150px;
-    margin-left: -140px;
-  }
-}

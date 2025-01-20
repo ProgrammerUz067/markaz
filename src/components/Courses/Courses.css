@@ -51,14 +51,3 @@
 .bottom .des-course {
   font-size: 14px;
 }
-
-@media screen and (max-width: 600px) {
-  .courses {
-    padding-top: 25px;
-    margin-top: -6px;
-  }
-
-  .wrapper-courses {
-    flex-wrap: wrap;
-  }
-}

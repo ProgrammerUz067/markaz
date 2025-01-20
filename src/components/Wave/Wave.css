@@ -22,9 +22,3 @@
     height: 65px;
   }
 }
-
-@media screen and (max-width: 2250px) {
-  .wave-container{
-    margin-top: -151px;
-  }
-}

@@ -10,13 +10,3 @@
   -moz-box-shadow: 0px 0px 22px 21px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 0px 22px 21px rgba(34, 60, 80, 0.2);
 }
-
-@media screen and (max-width: 600px){
-  .map{
-    padding-top: 50px;
-  }
-  .map-map{
-    width: 500px;
-    height: 400px;
-  }
-}
