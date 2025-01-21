@@ -189,3 +189,38 @@
     margin-left: 70px;
   }
 }
+
+@media screen and (max-width: 768px){
+  .contact-model{
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: -550px;
+    height: 600px;
+    /* margin-left: 30px; */
+  }
+
+  .contact-model .text-contact{
+    width: 100%;
+  }
+
+  .contact-model .text-contact .subtitle-contact{
+    margin-top: 5px;
+  }
+
+  .contact-model .form-contact form {
+    margin-left: -400px;
+    margin-top: 0;
+  }
+
+  .contact-model .form-contact form input{
+    height: 55px;
+    width: 500px;
+    font-size: 20px;
+  }
+
+  .contact-model .form-contact form .btn-submit{
+    font-size: 20px;
+    width: 220px;
+    height: 70px;
+  }
+}
