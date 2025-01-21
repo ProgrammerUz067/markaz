@@ -23,7 +23,7 @@
 }
 
 .contact-model .text-contact{
-  width: 35%;
+  width: 50%;
   margin-left: 50px;
 }
 
@@ -156,5 +156,36 @@
     width: 400px;
     font-size: 38px;
     margin-top: 95px;
+  }
+}
+
+@media screen and (max-width: 1366px){
+  .contact-model .text-contact .title-contact{
+    font-size: 42px;
+  }
+
+  .contact-model .text-contact .subtitle-contact{
+    font-size: 19px;
+  }
+
+  .contact-model .form-contact form{
+    margin-left: -250px;
+  }
+  .contact-model .form-contact form input{
+    height: 70px;
+    width: 500px;
+  }
+
+  .contact-model .form-contact form .btn-submit{
+    margin-left: 0px;
+    margin-top: 0;
+    width: 300px;
+    height: 70px;
+    font-size: 28px;
+  }
+  .contact-model{
+    height: 480px;
+    margin-top: -780px;
+    margin-left: 70px;
   }
 }
