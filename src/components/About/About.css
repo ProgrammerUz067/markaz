@@ -89,3 +89,19 @@
     font-size: 19px;
   }
 }
+
+@media screen and (max-width: 768px){
+  .model{
+    flex-wrap: wrap;
+    z-index: 10;
+    margin-top: -150px;
+  }
+
+  .model .textt-wrapper .tit{
+    font-size: 30px;
+  }
+
+  .model .textt-wrapper{
+    margin-left: 40px;
+  }
+}
