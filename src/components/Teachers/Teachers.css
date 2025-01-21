@@ -106,3 +106,13 @@
     margin-top: 420px;
   }
 }
+
+@media screen and (max-width: 430px){
+  .face.face1{
+    width: 100%;
+    
+  }
+  .face.face2{
+    width: 100%;
+  }
+}
