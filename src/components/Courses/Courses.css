@@ -86,3 +86,9 @@
     width: 70%;
   }
 }
+
+@media screen and (max-width: 430px){
+  .courses .wrapper-courses{
+    margin-top: -150px;
+  }
+}
