@@ -13,7 +13,7 @@
   background-color: #7d7d7d;
   position: fixed;
   font-family: sans-serif;
-  z-index: 10;
+  z-index: 100;
 }
 
 .nav > .nav-header {

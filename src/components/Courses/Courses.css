@@ -71,3 +71,18 @@
     width: 40%;
   }
 }
+
+@media screen and (max-width: 768px){
+  .courses .tittlee{
+    margin-left: 30px;
+  }
+
+  .courses .wrapper-courses{
+    margin-top: -420px;
+    margin-left: 10px;
+  }
+
+  .courses .wrapper-courses .course{
+    width: 70%;
+  }
+}
