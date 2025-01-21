@@ -71,3 +71,10 @@
     margin-top: 150px;
   }
 }
+
+@media screen and (max-width: 1920px){
+  .main .text-wrapper .title{
+    font-size: 60px;
+    /* margin-top: -15px; */
+  }
+}
