@@ -46,3 +46,25 @@
     margin-top: -100px;
   }
 }
+
+@media screen and (max-width: 768px){
+  .footer{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+  }
+
+  .footer .left-footer{
+    margin-left: -60px;
+  }
+
+  .footer .center-footer{
+    margin-left: -60px;
+  }
+
+  .footer .right-footer{
+    margin-left: 60px;
+  }
+}

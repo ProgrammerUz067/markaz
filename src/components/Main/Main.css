@@ -103,4 +103,8 @@
   .main{
     padding-bottom: 150px;
   }
+
+  .main .img-wrapper{
+    margin-right: 50px;
+  }
 }
