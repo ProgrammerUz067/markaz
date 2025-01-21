@@ -108,6 +108,7 @@
 
 @media screen and (max-width: 430px){
   .about .model{
-    margin-top: 1500px;
+    margin-top: 1000px;
+    width: 95%;
   }
 }
