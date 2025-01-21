@@ -2,18 +2,18 @@
   box-sizing: border-box;
 }
 
-.logo{
-  height: 100px;
-  margin-top: -10px;
+body {
+  margin: 0px;
+  font-family: "segoe ui";
 }
 
 .nav {
-  height: 100px;
+  height: 50px;
   width: 100%;
   background-color: #7d7d7d;
-  position: fixed;
-  font-family: sans-serif;
+  position: relative;
   z-index: 100;
+  
 }
 
 .nav > .nav-header {
@@ -32,11 +32,9 @@
 }
 
 .nav > .nav-links {
-  margin-top: 25px;
   display: inline;
   float: right;
   font-size: 18px;
-  margin-right: 30px;
 }
 
 .nav > .nav-links > a {
@@ -47,7 +45,7 @@
 }
 
 .nav > .nav-links > a:hover {
-  color: #92E3a9;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nav > #nav-check {
@@ -55,13 +53,6 @@
 }
 
 @media (max-width: 600px) {
-  ::-webkit-scrollbar{
-    display: none;
-  }
-  .nav{
-    height: 100px;
-    width: 100%;
-  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -78,12 +69,6 @@
   .nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
   }
-
-  .nav > .nav-btn > label{
-    margin-top: 25px;
-    cursor: pointer;
-    margin-right: 30px;
-  }
   .nav > .nav-btn > label > span {
     display: block;
     width: 25px;
@@ -91,7 +76,7 @@
     border-top: 2px solid #eee;
   }
   .nav > .nav-links {
-    margin-top: 50px;
+    display: flex;
     position: absolute;
     display: block;
     width: 100%;
@@ -102,9 +87,6 @@
     top: 50px;
     left: 0px;
     text-align: center;
-  }
-  .nav > .nav-links > a:nth-child(1){
-    margin-top: 200px;
   }
   .nav > .nav-links > a {
     display: block;
@@ -117,21 +99,9 @@
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
-
-  .nav > #nav-check:checked{
-    opacity: 0;
-  }
 }
 
-@media screen and (max-width: 1366px){
-  .nav .nav-links {
-    margin-right: 100px;
-  }
-}
 
-@media screen and (max-width: 768px){
-  .nav .nav-links{
-    margin-right: 15px;
-  }
+.logo{
+  width: 80px;
 }
-

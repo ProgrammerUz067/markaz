@@ -68,3 +68,10 @@
     margin-left: 60px;
   }
 }
+
+@media screen and (max-width: 430px){
+  .right-footer ul li{
+    margin-left: 50px;
+    /* font-size: 5px; */
+  }
+}
