@@ -18,3 +18,14 @@
   width: 98%;
   height: 500px;
 }
+
+@media screen and (max-width: 1366px){
+  .map .map-title{
+    font-size: 50px;
+  }
+
+  .map .map-map{
+    /* margin-top: 550px; */
+    height: 350px;
+  }
+}
