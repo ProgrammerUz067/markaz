@@ -61,3 +61,13 @@
     font-size: 60px;
   }
 }
+
+@media screen and (max-width: 1366px){
+  .courses .tittlee{
+    font-size: 50px;
+  }
+
+  .courses .wrapper-courses .course{
+    width: 40%;
+  }
+}
