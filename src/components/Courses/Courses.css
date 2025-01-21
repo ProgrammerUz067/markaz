@@ -85,10 +85,15 @@
   .courses .wrapper-courses .course{
     width: 70%;
   }
-}
+}                                                                 
 
 @media screen and (max-width: 430px){
   .courses .wrapper-courses{
-    margin-top: -150px;
+    margin-top: -420px;
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .courses .wrapper-courses .course{
+    width: 85%;
   }
 }
