@@ -9,17 +9,18 @@
   width: 100%;
 }
 .text-wrapper {
-  margin-top: 100px;
+  margin-top: -300px;
   width: 50%;
   margin-left: 30px;
 }
 .img-wrapper {
-  margin-top: 100px;
+  margin-top: -300px;
   width: 30%;
   background: #7d7d7d;
 }
 .img-wrapper img {
   width: 100%;
+  margin-top: -200px;
 }
 .text-wrapper .title {
   font-size: 54px;
