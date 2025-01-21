@@ -128,3 +128,33 @@
     margin-left: 110px;
   }
 }
+
+@media screen and (max-width: 1920px){
+  .contact-model{
+    margin-top: -500px;
+  }
+  .contact-model .text-contact .title-contact{
+    font-size: 52px;
+    margin-top: 15px;
+  }
+  .contact-model .text-contact .subtitle-contact{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .contact-model .form-contact form {
+    margin-left: -150px;
+    margin-top: 25px;
+  }
+
+  .contact-model .form-contact form input{
+    height: 80px;
+  }
+
+  .contact-model .form-contact form .btn-submit{
+    height: 80px;
+    width: 400px;
+    font-size: 38px;
+    margin-top: 95px;
+  }
+}
