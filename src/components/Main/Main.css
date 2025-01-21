@@ -4,7 +4,9 @@
   align-items: center;
   background: #7d7d7d;
   font-family: sans-serif;
-  margin-top: -5px;
+  margin-bottom: 35px;
+  padding-top: 50px;
+  width: 100%;
 }
 .text-wrapper {
   margin-top: 100px;
@@ -14,6 +16,7 @@
 .img-wrapper {
   margin-top: 100px;
   width: 30%;
+  background: #7d7d7d;
 }
 .img-wrapper img {
   width: 100%;

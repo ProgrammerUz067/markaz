@@ -8,7 +8,7 @@ body {
 }
 
 .nav {
-  height: 50px;
+  height: 80px;
   width: 100%;
   background-color: #7d7d7d;
   position: relative;
@@ -103,5 +103,5 @@ body {
 
 
 .logo{
-  width: 80px;
+  width: 120px;
 }
