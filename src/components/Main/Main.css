@@ -89,3 +89,18 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 768px){
+  .main .text-wrapper .title{
+    font-size: 34px;
+    margin-top: 80px;
+  }
+
+  .main .text-wrapper{
+    width: 60%;
+    margin-left: -10px;
+  }
+  .main{
+    padding-bottom: 150px;
+  }
+}
