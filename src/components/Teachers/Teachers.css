@@ -100,3 +100,9 @@
   background: #7d7d7d;
   color: #fff;
 }
+
+@media screen and (max-width: 768px){
+  .swiper{
+    margin-top: 420px;
+  }
+}
