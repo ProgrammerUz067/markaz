@@ -121,3 +121,9 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 1366px){
+  .nav .nav-links {
+    margin-right: 100px;
+  }
+}
