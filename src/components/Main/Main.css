@@ -104,3 +104,18 @@
     padding-bottom: 150px;
   }
 }
+
+@media screen and (max-width: 430px){
+  .main{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .main .text-wrapper{
+    width: 100%;
+    margin-left: -50px;
+  }
+  .main .img-wrapper{
+    width: 100%;
+    margin-top: -10px;
+  }
+}

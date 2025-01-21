@@ -60,6 +60,7 @@
   }
   .nav{
     height: 100px;
+    width: 100%;
   }
   .nav > .nav-btn {
     display: inline-block;
@@ -133,3 +134,4 @@
     margin-right: 15px;
   }
 }
+
