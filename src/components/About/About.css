@@ -75,3 +75,17 @@
     margin-top: 5px;
   }
 }
+
+@media screen and (max-width: 1366px){
+  .about .model{
+    margin-top: 670px;
+    width: 70%;
+  }
+  .about .model .textt-wrapper .tit{
+    font-size: 50px;
+  }
+
+  .about .model .textt-wrapper .des{
+    font-size: 19px;
+  }
+}
