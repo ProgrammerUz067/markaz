@@ -127,3 +127,13 @@
     margin-right: 100px;
   }
 }
+
+@media screen and (max-width: 768px){
+  .nav .nav-links{
+    margin-right: 15px;
+  }
+
+  .nav{
+    width: 768px;
+  }
+}
