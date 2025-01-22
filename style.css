@@ -110,6 +110,7 @@ header {
   z-index: 3;
 }
 
+
 #logo {
   font-family: "Roboto", "Helvetica", "Sans-serif";
   font-size: 1.7rem;
@@ -201,7 +202,7 @@ header ul.is-sticky li a.active {
 
 #hero .hero-text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   margin: -75px auto 0;
   left: 0;
   right: 0;
@@ -209,6 +210,14 @@ header ul.is-sticky li a.active {
   color: #fff;
   width: 500px;
   text-align: center;
+}
+
+#hero .hero-text h1{
+  color: #2fe055;
+}
+
+#hero .hero-text h1 span{
+  color: #fff;
 }
 
 #hero .hero-text p {
