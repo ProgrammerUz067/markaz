@@ -53,7 +53,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  color: #f69314;
+  color: #2fe055;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -78,7 +78,7 @@ p {
 }
 
 button.rounded {
-  background: #f69314;
+  background: #2fe055;
   border: none;
   color: #fff;
   font-size: 16px;
@@ -102,7 +102,7 @@ p.large-paragraph {
 }
 
 header {
-  background: transparent;
+  background: rgba(52, 58, 64, 0.9);
   padding: 1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: fixed;
@@ -113,11 +113,16 @@ header {
 #logo {
   font-family: "Roboto", "Helvetica", "Sans-serif";
   font-size: 1.7rem;
+  width: 400px;
   font-weight: 800;
   color: #fff;
   text-decoration: none;
   position: relative;
   top: 4px;
+}
+
+#logo img{
+  width: 100px;
 }
 
 .hamburger-menu {
@@ -167,7 +172,7 @@ header ul li a.active {
 
 header ul.is-sticky li a:hover,
 header ul.is-sticky li a.active {
-  color: #f69314;
+  color: #2fe055;
 }
 /* end: header styles */
 
@@ -234,7 +239,7 @@ header ul.is-sticky li a.active {
 }
 
 #how-it-works span.fas {
-  color: #f69314;
+  color: #2fe055;
   font-size: 35px;
 }
 /* end: how it works styles */
@@ -411,7 +416,7 @@ header ul.is-sticky li a.active {
 }
 
 #services .flex > div .fas {
-  color: #f69314;
+  color: #2fe055;
   font-size: 40px;
   float: left;
   margin-top: 15px;
@@ -425,7 +430,7 @@ header ul.is-sticky li a.active {
 }
 
 #services .flex > div a {
-  color: #f69314;
+  color: #2fe055;
   text-decoration: none;
 }
 
@@ -561,7 +566,7 @@ header ul.is-sticky li a.active {
 
 #address-container a {
   text-decoration: none;
-  color: #f69314;
+  color: #2fe055;
 }
 
 #address-container a:hover {
@@ -645,7 +650,7 @@ footer .footer-subscribe input {
 footer button.right-rounded {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  background: #f69314;
+  background: #2fe055;
   font-size: 16px;
   color: #000;
   padding: 10px 30px 9px;
@@ -751,7 +756,7 @@ footer small a:hover {
 
   nav ul li a.active,
   nav ul li a:hover {
-    color: #f69314;
+    color: #2fe055;
   }
 }
 
