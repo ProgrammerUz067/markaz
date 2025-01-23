@@ -170,8 +170,7 @@ header ul li a.active {
   color: #fff;
 }
 
-header ul.is-sticky li a:hover,
-header ul.is-sticky li a.active {
+header ul.is-sticky li a:hover {
   color: #2fe055;
 }
 /* end: header styles */
