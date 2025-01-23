@@ -104,7 +104,7 @@ p.large-paragraph {
 header {
   background: rgba(52, 58, 64, 0.9);
   padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -162,7 +162,7 @@ header ul li a {
 }
 
 header ul.is-sticky li a {
-  color: #000;
+  color: #fff;
 }
 
 header ul li a:hover,
@@ -355,7 +355,7 @@ header ul.is-sticky li a.active {
 #agents {
   margin: 4rem 0 6rem;
   padding: 0 0 6rem;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
 }
 
 #agents p.large-paragraph {
@@ -417,7 +417,7 @@ header ul.is-sticky li a.active {
   background: #f8f9fa;
   padding: 6rem 0;
   margin: 8rem 0;
-  border-bottom: 1px solid #dee2e6;
+  /* border-bottom: 1px solid #dee2e6; */
 }
 
 #services h2 {
@@ -1024,7 +1024,7 @@ footer small a:hover {
 }
 
 .wave1 {
-  height: 30vh;
+  height: 20vh;
   background-color: #484d53;
   position: relative;
   transform: rotate(180deg);
